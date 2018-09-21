@@ -1,12 +1,12 @@
-package com.thoughtmechanix.license;
+package com.thoughtmechanix.licenseservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LicenseApplication {
+public class LicenseServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LicenseApplication.class, args);
+		SpringApplication.run(LicenseServiceApplication.class, args);
 	}
 }
